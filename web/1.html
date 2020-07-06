@@ -1,0 +1,50 @@
+<!doctype html>
+<html>
+<head>
+  <title>장천 아파트 구역</title>
+  <meta charset="utf-8">
+</head>
+
+<style>
+body {
+  display: flex;
+  min-height: 100vh;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+select {
+  margin-bottom: 10em;
+  padding: .50em;
+  border: 0;
+  border-bottom: 2px solid currentcolor;
+  font-weight: bold;
+  letter-spacing: .10em;
+  border-radius: 0;
+  &:focus, &:active {
+    outline: 0;
+    border-bottom-color: red;
+  }
+}
+
+h1 {
+  text-align: center;
+}
+</style>
+
+<body>
+  <div class="selectbox">
+    <h1>장천 아파트 봉사 구역<h1>
+  <select name="아파트" onchange="window.open(this.value)"">
+    <option value="full.html">우미린 풀하우스</option>
+    <option value="park.html">우미린 센트럴파크</option>
+    <option value="sclass.html">중흥 S클래스</option>
+    <option value="goldclass.html">골드클래스</option>
+    <option value="goldium.html">골드디움</option>
+    <option value="hoban.html">호반 베르디움</option>
+    <option value="yega.html">쌍용 예가</option>
+</select>
+
+</body>
+</html>
